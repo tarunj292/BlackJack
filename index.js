@@ -3,6 +3,7 @@ let secondCard = 12
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
+let message = ""
 
 if(sum<=20){
     console.log("Do you want to draw a new card? 🙂")
@@ -12,6 +13,7 @@ if(sum<=20){
 } else{
     console.log("You're out of the game! 😭")
     isAlive = false
+    message = "we're logging out"
 }
 
-console.log(isAlive)
+console.log(message)
